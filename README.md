@@ -115,10 +115,8 @@ semaphore = threading.Semaphore(value=1) # 建立semaphore物件 value預設值�
 counter = 0 # 計算寫入標題數
 ```
 ## 測試結果
-使用三個threads:
-![1.PNG](http://user-image.logdown.io/user/20495/blog/19946/post/1345151/AXNJGiCS9Gh9RFrVHPGA_1.PNG)
-使用單個thread:
-![2.PNG](http://user-image.logdown.io/user/20495/blog/19946/post/1345151/WRYhOhX4SHie8C32L6PV_2.PNG)
+使用三個threads:  ![1.PNG](http://user-image.logdown.io/user/20495/blog/19946/post/1345151/AXNJGiCS9Gh9RFrVHPGA_1.PNG)
+使用單個thread:   ![2.PNG](http://user-image.logdown.io/user/20495/blog/19946/post/1345151/WRYhOhX4SHie8C32L6PV_2.PNG)
 
 title.txt
 ![3.PNG](http://user-image.logdown.io/user/20495/blog/19946/post/1345151/6I1k2IMCT1eZqwnq3rUd_3.PNG)
